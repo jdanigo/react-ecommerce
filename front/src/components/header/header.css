@@ -1,0 +1,19 @@
+.logo-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.search-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.search-input{
+    border-radius: 0px;
+    width: 50%;
+    border: 1px solid black;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("../../assets/icons/angle-right-solid.svg");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
