@@ -16,4 +16,13 @@ cd front
 npm install
 npm start
 ```
+
+## Screen Shots
+![Home](https://github.com/jdanigo/react-ecommerce/blob/master/front/screenshots/home.png)
+![Category](https://github.com/jdanigo/react-ecommerce/blob/master/front/screenshots/category.png)
+![Product](https://github.com/jdanigo/react-ecommerce/blob/master/front/screenshots/product.png)
+
+
+
 **Desarrollado por José Daniel Garcés Ospina**
+
