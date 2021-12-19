@@ -4,139 +4,159 @@
         "nombre": "Zapato azul",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "1.jpg"
+        "foto": "1.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 2,
         "nombre": "Zapato rojo",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "2.jpg"
+        "foto": "2.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 3,
         "nombre": "Zapato verde",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "3.jpg"
+        "foto": "3.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 4,
         "nombre": "Zapato gris",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "4.jpg"
+        "foto": "4.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 5,
         "nombre": "Zapato cafe",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "5.jpg"
+        "foto": "5.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 6,
         "nombre": "Zapato miel",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "6.jpg"
+        "foto": "6.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 7,
         "nombre": "Zapato aguamarina",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "7.jpg"
+        "foto": "7.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 8,
         "nombre": "Zapato piel",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "8.jpg"
+        "foto": "8.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 9,
         "nombre": "Zapato perla",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "9.jpg"
+        "foto": "9.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 10,
         "nombre": "Zapato marinado",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "10.jpg"
+        "foto": "10.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 11,
         "nombre": "Zapato azul1",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "11.jpg"
+        "foto": "11.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 12,
         "nombre": "Zapato azul2",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "12.jpg"
+        "foto": "12.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 13,
         "nombre": "Zapato azul3",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "13.jpg"
+        "foto": "13.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 14,
         "nombre": "Zapato azul4",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "14.jpg"
+        "foto": "14.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 15,
         "nombre": "Zapato azul5",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "15.jpg"
+        "foto": "15.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 16,
         "nombre": "Zapato azul6",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "16.jpg"
+        "foto": "16.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 17,
         "nombre": "Zapato azul7",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "17.jpg"
+        "foto": "17.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 18,
         "nombre": "Zapato azul8",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "18.jpg"
+        "foto": "18.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 19,
         "nombre": "Zapato azul9",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "19.jpg"
+        "foto": "19.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     },
     {
         "id": 20,
         "nombre": "Zapato azul10",
         "precio": 5000,
         "referencia": "G40",
-        "foto": "20.jpg"
+        "foto": "20.jpg",
+        "fotos": ["1.jpg","2.jpg","3.jpg","4.jpg"]
     }
 ]

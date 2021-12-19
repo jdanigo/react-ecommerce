@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap/";
 import productos from "../../data/productos.json";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import './categoria.css';
+import {Link} from 'react-router-dom';
 function Categoria() {
   const dataProducto = productos;
   const tallas = [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
@@ -11,7 +15,11 @@ function Categoria() {
         <Col>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item active">Home</li>
+              <li class="breadcrumb-item active">
+              <Link to={'/'}>
+                  Home
+                </Link>
+              </li>
               <li class="breadcrumb-item active">Categorias</li>
               <li class="breadcrumb-item active" aria-current="page">
                 Calzado
@@ -101,8 +109,15 @@ function Categoria() {
               return (
                 <Col className="mb-2" key={index} lg={4}>
                   <div className="card no-radius card-product no-borders-bottom">
+                    <div className="card-favorite">
+                    <button type="button" className="btn btn-default mx-4">
+                  <FontAwesomeIcon icon={faHeart} color="gray" size="lg"/>
+                  </button>
+                    </div>
                     <div className="card-img card-img-box">
+                      <Link to={'/producto/'+data.id}>
                       <img className="card-img-element" src={photo} alt="e-commerce" />
+                      </Link>
                     </div>
                     <div className="card-title">
                       <div className="text-center">
