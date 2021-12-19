@@ -17,6 +17,14 @@ function Producto() {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [{
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    }]
   };
   const params = useParams();
   const { id } = params;
@@ -51,7 +59,7 @@ function Producto() {
           <div className="card no-borders">
             <div className="card-img">
               <img
-                className="d-block mx-auto"
+                className="d-block mx-auto img-fluid"
                 src={photo}
                 style={{ maxWidth: 400 }}
                 alt="e-commerce"
@@ -63,7 +71,7 @@ function Producto() {
                   const photo = require(`../../assets/img/${data}`);
                   return (
                     <div key={index}>
-                      <img src={photo} width={100} alt="e-commerce" />
+                      <img src={photo}  className="img-fluid" width={100} alt="e-commerce" />
                     </div>
                   );
                 })}

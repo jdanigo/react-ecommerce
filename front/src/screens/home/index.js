@@ -21,10 +21,11 @@ function Home() {
     speed: 500,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    adaptiveHeight: true
   };
 
   const settingsProducts = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -32,6 +33,14 @@ function Home() {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [{
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    }]
   };
 
   const images = [{ url: img1 }, { url: img2 }];
@@ -44,7 +53,7 @@ function Home() {
           {images.map((data,index) => {
             return (
               <div key={index}>
-                <img src={data.url} alt="e-commerce" />
+                <img src={data.url}  className="img-fluid" alt="e-commerce" />
               </div>
             );
           })}
@@ -117,7 +126,7 @@ function Home() {
                   return (
                     <div key={index}>
                       <Link to={'/producto/'+data.id}>
-                      <img src={photo} width={200} alt="e-commerce" />
+                      <img src={photo} className="img-fluid" width={200} alt="e-commerce" />
                       </Link>
                       
                     </div>

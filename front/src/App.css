@@ -86,3 +86,9 @@ a {
   color: unset;
   text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+  
+.search-input {
+width: 100%;
+}  
+}
