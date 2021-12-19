@@ -43,5 +43,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "author": "Jose Daniel Garces Ospina",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdanigo/react-ecommerce"
+  },
+  "homepage": "https://nostalgic-keller-357a7f.netlify.app/"
 }
